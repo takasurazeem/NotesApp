@@ -15,6 +15,7 @@
 		762C822B2ADCAC980079CC09 /* NotesApp_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762C822A2ADCAC980079CC09 /* NotesApp_Watch_AppTests.swift */; };
 		762C82352ADCAC980079CC09 /* NotesApp_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762C82342ADCAC980079CC09 /* NotesApp_Watch_AppUITests.swift */; };
 		762C82372ADCAC980079CC09 /* NotesApp_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762C82362ADCAC980079CC09 /* NotesApp_Watch_AppUITestsLaunchTests.swift */; };
+		762C82482ADCACB70079CC09 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 762C82472ADCACB70079CC09 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		762C82302ADCAC980079CC09 /* NotesApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NotesApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		762C82342ADCAC980079CC09 /* NotesApp_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesApp_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		762C82362ADCAC980079CC09 /* NotesApp_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesApp_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		762C82472ADCACB70079CC09 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			children = (
 				762C82342ADCAC980079CC09 /* NotesApp_Watch_AppUITests.swift */,
 				762C82362ADCAC980079CC09 /* NotesApp_Watch_AppUITestsLaunchTests.swift */,
+				762C82472ADCACB70079CC09 /* README.md */,
 			);
 			path = "NotesApp Watch AppUITests";
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				762C82482ADCACB70079CC09 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
