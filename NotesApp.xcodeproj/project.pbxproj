@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		762C82152ADCAC960079CC09 /* NotesApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 762C82142ADCAC960079CC09 /* NotesApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		762C821A2ADCAC960079CC09 /* NotesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762C82192ADCAC960079CC09 /* NotesAppApp.swift */; };
+		762C821C2ADCAC960079CC09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762C821B2ADCAC960079CC09 /* ContentView.swift */; };
+		762C821E2ADCAC980079CC09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762C821D2ADCAC980079CC09 /* Assets.xcassets */; };
+		762C82212ADCAC980079CC09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762C82202ADCAC980079CC09 /* Preview Assets.xcassets */; };
+		762C822B2ADCAC980079CC09 /* NotesApp_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762C822A2ADCAC980079CC09 /* NotesApp_Watch_AppTests.swift */; };
+		762C82352ADCAC980079CC09 /* NotesApp_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762C82342ADCAC980079CC09 /* NotesApp_Watch_AppUITests.swift */; };
+		762C82372ADCAC980079CC09 /* NotesApp_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762C82362ADCAC980079CC09 /* NotesApp_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		762C82162ADCAC960079CC09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 762C82082ADCAC950079CC09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 762C82132ADCAC960079CC09;
+			remoteInfo = "NotesApp Watch App";
+		};
+		762C82272ADCAC980079CC09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 762C82082ADCAC950079CC09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 762C82132ADCAC960079CC09;
+			remoteInfo = "NotesApp Watch App";
+		};
+		762C82312ADCAC980079CC09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 762C82082ADCAC950079CC09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 762C82132ADCAC960079CC09;
+			remoteInfo = "NotesApp Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		762C823D2ADCAC980079CC09 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				762C82152ADCAC960079CC09 /* NotesApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		762C820E2ADCAC960079CC09 /* NotesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		762C82142ADCAC960079CC09 /* NotesApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NotesApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		762C82192ADCAC960079CC09 /* NotesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesAppApp.swift; sourceTree = "<group>"; };
+		762C821B2ADCAC960079CC09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		762C821D2ADCAC980079CC09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		762C82202ADCAC980079CC09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		762C82262ADCAC980079CC09 /* NotesApp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NotesApp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		762C822A2ADCAC980079CC09 /* NotesApp_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesApp_Watch_AppTests.swift; sourceTree = "<group>"; };
+		762C82302ADCAC980079CC09 /* NotesApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NotesApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		762C82342ADCAC980079CC09 /* NotesApp_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesApp_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		762C82362ADCAC980079CC09 /* NotesApp_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesApp_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		762C82112ADCAC960079CC09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762C82232ADCAC980079CC09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762C822D2ADCAC980079CC09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		762C82072ADCAC950079CC09 = {
+			isa = PBXGroup;
+			children = (
+				762C82182ADCAC960079CC09 /* NotesApp Watch App */,
+				762C82292ADCAC980079CC09 /* NotesApp Watch AppTests */,
+				762C82332ADCAC980079CC09 /* NotesApp Watch AppUITests */,
+				762C820F2ADCAC960079CC09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		762C820F2ADCAC960079CC09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				762C820E2ADCAC960079CC09 /* NotesApp.app */,
+				762C82142ADCAC960079CC09 /* NotesApp Watch App.app */,
+				762C82262ADCAC980079CC09 /* NotesApp Watch AppTests.xctest */,
+				762C82302ADCAC980079CC09 /* NotesApp Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		762C82182ADCAC960079CC09 /* NotesApp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				762C82192ADCAC960079CC09 /* NotesAppApp.swift */,
+				762C821B2ADCAC960079CC09 /* ContentView.swift */,
+				762C821D2ADCAC980079CC09 /* Assets.xcassets */,
+				762C821F2ADCAC980079CC09 /* Preview Content */,
+			);
+			path = "NotesApp Watch App";
+			sourceTree = "<group>";
+		};
+		762C821F2ADCAC980079CC09 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				762C82202ADCAC980079CC09 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		762C82292ADCAC980079CC09 /* NotesApp Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				762C822A2ADCAC980079CC09 /* NotesApp_Watch_AppTests.swift */,
+			);
+			path = "NotesApp Watch AppTests";
+			sourceTree = "<group>";
+		};
+		762C82332ADCAC980079CC09 /* NotesApp Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				762C82342ADCAC980079CC09 /* NotesApp_Watch_AppUITests.swift */,
+				762C82362ADCAC980079CC09 /* NotesApp_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "NotesApp Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		762C820D2ADCAC960079CC09 /* NotesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 762C823E2ADCAC980079CC09 /* Build configuration list for PBXNativeTarget "NotesApp" */;
+			buildPhases = (
+				762C820C2ADCAC960079CC09 /* Resources */,
+				762C823D2ADCAC980079CC09 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				762C82172ADCAC960079CC09 /* PBXTargetDependency */,
+			);
+			name = NotesApp;
+			productName = NotesApp;
+			productReference = 762C820E2ADCAC960079CC09 /* NotesApp.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		762C82132ADCAC960079CC09 /* NotesApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 762C823A2ADCAC980079CC09 /* Build configuration list for PBXNativeTarget "NotesApp Watch App" */;
+			buildPhases = (
+				762C82102ADCAC960079CC09 /* Sources */,
+				762C82112ADCAC960079CC09 /* Frameworks */,
+				762C82122ADCAC960079CC09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NotesApp Watch App";
+			productName = "NotesApp Watch App";
+			productReference = 762C82142ADCAC960079CC09 /* NotesApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		762C82252ADCAC980079CC09 /* NotesApp Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 762C82412ADCAC980079CC09 /* Build configuration list for PBXNativeTarget "NotesApp Watch AppTests" */;
+			buildPhases = (
+				762C82222ADCAC980079CC09 /* Sources */,
+				762C82232ADCAC980079CC09 /* Frameworks */,
+				762C82242ADCAC980079CC09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				762C82282ADCAC980079CC09 /* PBXTargetDependency */,
+			);
+			name = "NotesApp Watch AppTests";
+			productName = "NotesApp Watch AppTests";
+			productReference = 762C82262ADCAC980079CC09 /* NotesApp Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		762C822F2ADCAC980079CC09 /* NotesApp Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 762C82442ADCAC980079CC09 /* Build configuration list for PBXNativeTarget "NotesApp Watch AppUITests" */;
+			buildPhases = (
+				762C822C2ADCAC980079CC09 /* Sources */,
+				762C822D2ADCAC980079CC09 /* Frameworks */,
+				762C822E2ADCAC980079CC09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				762C82322ADCAC980079CC09 /* PBXTargetDependency */,
+			);
+			name = "NotesApp Watch AppUITests";
+			productName = "NotesApp Watch AppUITests";
+			productReference = 762C82302ADCAC980079CC09 /* NotesApp Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		762C82082ADCAC950079CC09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					762C820D2ADCAC960079CC09 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					762C82132ADCAC960079CC09 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					762C82252ADCAC980079CC09 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 762C82132ADCAC960079CC09;
+					};
+					762C822F2ADCAC980079CC09 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 762C82132ADCAC960079CC09;
+					};
+				};
+			};
+			buildConfigurationList = 762C820B2ADCAC950079CC09 /* Build configuration list for PBXProject "NotesApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 762C82072ADCAC950079CC09;
+			productRefGroup = 762C820F2ADCAC960079CC09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				762C820D2ADCAC960079CC09 /* NotesApp */,
+				762C82132ADCAC960079CC09 /* NotesApp Watch App */,
+				762C82252ADCAC980079CC09 /* NotesApp Watch AppTests */,
+				762C822F2ADCAC980079CC09 /* NotesApp Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		762C820C2ADCAC960079CC09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762C82122ADCAC960079CC09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				762C82212ADCAC980079CC09 /* Preview Assets.xcassets in Resources */,
+				762C821E2ADCAC980079CC09 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762C82242ADCAC980079CC09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762C822E2ADCAC980079CC09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		762C82102ADCAC960079CC09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				762C821C2ADCAC960079CC09 /* ContentView.swift in Sources */,
+				762C821A2ADCAC960079CC09 /* NotesAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762C82222ADCAC980079CC09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				762C822B2ADCAC980079CC09 /* NotesApp_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762C822C2ADCAC980079CC09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				762C82372ADCAC980079CC09 /* NotesApp_Watch_AppUITestsLaunchTests.swift in Sources */,
+				762C82352ADCAC980079CC09 /* NotesApp_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		762C82172ADCAC960079CC09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 762C82132ADCAC960079CC09 /* NotesApp Watch App */;
+			targetProxy = 762C82162ADCAC960079CC09 /* PBXContainerItemProxy */;
+		};
+		762C82282ADCAC980079CC09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 762C82132ADCAC960079CC09 /* NotesApp Watch App */;
+			targetProxy = 762C82272ADCAC980079CC09 /* PBXContainerItemProxy */;
+		};
+		762C82322ADCAC980079CC09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 762C82132ADCAC960079CC09 /* NotesApp Watch App */;
+			targetProxy = 762C82312ADCAC980079CC09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		762C82382ADCAC980079CC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		762C82392ADCAC980079CC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		762C823B2ADCAC980079CC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NotesApp Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NotesApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takasurazeem.NotesApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		762C823C2ADCAC980079CC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NotesApp Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NotesApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takasurazeem.NotesApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		762C823F2ADCAC980079CC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = NotesApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takasurazeem.NotesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		762C82402ADCAC980079CC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = NotesApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takasurazeem.NotesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		762C82422ADCAC980079CC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.takasurazeem.NotesApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotesApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NotesApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		762C82432ADCAC980079CC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.takasurazeem.NotesApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotesApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NotesApp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		762C82452ADCAC980079CC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.takasurazeem.NotesApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "NotesApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		762C82462ADCAC980079CC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.takasurazeem.NotesApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "NotesApp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		762C820B2ADCAC950079CC09 /* Build configuration list for PBXProject "NotesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				762C82382ADCAC980079CC09 /* Debug */,
+				762C82392ADCAC980079CC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		762C823A2ADCAC980079CC09 /* Build configuration list for PBXNativeTarget "NotesApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				762C823B2ADCAC980079CC09 /* Debug */,
+				762C823C2ADCAC980079CC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		762C823E2ADCAC980079CC09 /* Build configuration list for PBXNativeTarget "NotesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				762C823F2ADCAC980079CC09 /* Debug */,
+				762C82402ADCAC980079CC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		762C82412ADCAC980079CC09 /* Build configuration list for PBXNativeTarget "NotesApp Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				762C82422ADCAC980079CC09 /* Debug */,
+				762C82432ADCAC980079CC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		762C82442ADCAC980079CC09 /* Build configuration list for PBXNativeTarget "NotesApp Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				762C82452ADCAC980079CC09 /* Debug */,
+				762C82462ADCAC980079CC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 762C82082ADCAC950079CC09 /* Project object */;
+}
