@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import SFSymbol
 
 struct NotesDashboard: View {
     // MARK: Properties
@@ -16,8 +15,17 @@ struct NotesDashboard: View {
     var body: some View {
         VStack {
             AddNoteView(viewModel: viewModel)
+            List(viewModel.notes) { note in
+                HStack {
+                    RoundedRectangle(cornerRadius: 4)
+                        .background(Color.accentColor)
+                        .frame(width: 4)
+                    Text(note.text)
+                        .lineLimit(1)
+                        .font(.body)
+                }
+            }
             Spacer()
-            Text("\(viewModel.notes.count)")
         } //: VStack
         .navigationTitle("Notes")
     }

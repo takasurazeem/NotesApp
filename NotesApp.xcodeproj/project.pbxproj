@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		762C82152ADCAC960079CC09 /* NotesApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 762C82142ADCAC960079CC09 /* NotesApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		762C821A2ADCAC960079CC09 /* NotesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762C82192ADCAC960079CC09 /* NotesAppApp.swift */; };
-		762C821C2ADCAC960079CC09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762C821B2ADCAC960079CC09 /* ContentView.swift */; };
+		762C821C2ADCAC960079CC09 /* NotesDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762C821B2ADCAC960079CC09 /* NotesDashboard.swift */; };
 		762C821E2ADCAC980079CC09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762C821D2ADCAC980079CC09 /* Assets.xcassets */; };
 		762C82212ADCAC980079CC09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762C82202ADCAC980079CC09 /* Preview Assets.xcassets */; };
 		762C822B2ADCAC980079CC09 /* NotesApp_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762C822A2ADCAC980079CC09 /* NotesApp_Watch_AppTests.swift */; };
 		762C82352ADCAC980079CC09 /* NotesApp_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762C82342ADCAC980079CC09 /* NotesApp_Watch_AppUITests.swift */; };
 		762C82372ADCAC980079CC09 /* NotesApp_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762C82362ADCAC980079CC09 /* NotesApp_Watch_AppUITestsLaunchTests.swift */; };
 		762C82482ADCACB70079CC09 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 762C82472ADCACB70079CC09 /* README.md */; };
-		762C824B2ADCB4270079CC09 /* SFSymbol in Frameworks */ = {isa = PBXBuildFile; productRef = 762C824A2ADCB4270079CC09 /* SFSymbol */; };
 		76ED97EC2ADCC0BC003A6CEE /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED97EB2ADCC0BC003A6CEE /* Note.swift */; };
 		76ED97EF2ADCC6A7003A6CEE /* NotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED97EE2ADCC6A7003A6CEE /* NotesViewModel.swift */; };
+		76ED97F12ADCCB8A003A6CEE /* AddNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED97F02ADCCB8A003A6CEE /* AddNoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +63,7 @@
 		762C820E2ADCAC960079CC09 /* NotesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		762C82142ADCAC960079CC09 /* NotesApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NotesApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		762C82192ADCAC960079CC09 /* NotesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesAppApp.swift; sourceTree = "<group>"; };
-		762C821B2ADCAC960079CC09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		762C821B2ADCAC960079CC09 /* NotesDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesDashboard.swift; sourceTree = "<group>"; };
 		762C821D2ADCAC980079CC09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		762C82202ADCAC980079CC09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		762C82262ADCAC980079CC09 /* NotesApp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NotesApp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +74,7 @@
 		762C82472ADCACB70079CC09 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		76ED97EB2ADCC0BC003A6CEE /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		76ED97EE2ADCC6A7003A6CEE /* NotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewModel.swift; sourceTree = "<group>"; };
+		76ED97F02ADCCB8A003A6CEE /* AddNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				762C824B2ADCB4270079CC09 /* SFSymbol in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,7 +130,6 @@
 				76ED97EA2ADCC0A8003A6CEE /* Model */,
 				76ED97E92ADCC09E003A6CEE /* View */,
 				762C82192ADCAC960079CC09 /* NotesAppApp.swift */,
-				762C821B2ADCAC960079CC09 /* ContentView.swift */,
 				762C821D2ADCAC980079CC09 /* Assets.xcassets */,
 				762C821F2ADCAC980079CC09 /* Preview Content */,
 			);
@@ -166,6 +165,8 @@
 		76ED97E92ADCC09E003A6CEE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				762C821B2ADCAC960079CC09 /* NotesDashboard.swift */,
+				76ED97F02ADCCB8A003A6CEE /* AddNoteView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -220,7 +221,6 @@
 			);
 			name = "NotesApp Watch App";
 			packageProductDependencies = (
-				762C824A2ADCB4270079CC09 /* SFSymbol */,
 			);
 			productName = "NotesApp Watch App";
 			productReference = 762C82142ADCAC960079CC09 /* NotesApp Watch App.app */;
@@ -298,7 +298,6 @@
 			);
 			mainGroup = 762C82072ADCAC950079CC09;
 			packageReferences = (
-				762C82492ADCB4270079CC09 /* XCRemoteSwiftPackageReference "SFSymbol" */,
 			);
 			productRefGroup = 762C820F2ADCAC960079CC09 /* Products */;
 			projectDirPath = "";
@@ -352,9 +351,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				76ED97EF2ADCC6A7003A6CEE /* NotesViewModel.swift in Sources */,
-				762C821C2ADCAC960079CC09 /* ContentView.swift in Sources */,
+				762C821C2ADCAC960079CC09 /* NotesDashboard.swift in Sources */,
 				762C821A2ADCAC960079CC09 /* NotesAppApp.swift in Sources */,
 				76ED97EC2ADCC0BC003A6CEE /* Note.swift in Sources */,
+				76ED97F12ADCCB8A003A6CEE /* AddNoteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -729,25 +729,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		762C82492ADCB4270079CC09 /* XCRemoteSwiftPackageReference "SFSymbol" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Nirma/SFSymbol";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.3.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		762C824A2ADCB4270079CC09 /* SFSymbol */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 762C82492ADCB4270079CC09 /* XCRemoteSwiftPackageReference "SFSymbol" */;
-			productName = SFSymbol;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 762C82082ADCAC950079CC09 /* Project object */;
 }
