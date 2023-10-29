@@ -7,6 +7,7 @@
 
 import Combine
 import Foundation
+import SwiftUI
 
 extension NotesDashboard {
     class ViewModel: ObservableObject {
@@ -16,6 +17,9 @@ extension NotesDashboard {
         init() {
             self.text = ""
             loadNotes()
+#if DEBUG
+            self.notes.append(Note(text: "An examplry note for testing only."))
+#endif
         }
         
         private func save() {
@@ -62,8 +66,10 @@ extension NotesDashboard {
         }
         
         func onDelete(_ deleteOffsets: IndexSet) {
-            notes.remove(atOffsets: deleteOffsets)
-            save()
+            withAnimation {
+                notes.remove(atOffsets: deleteOffsets)
+                save()
+            }
         }
     }
 }

@@ -15,18 +15,28 @@ struct NotesDashboard: View {
     var body: some View {
         VStack {
             AddNoteView(viewModel: viewModel)
-            List {
-                ForEach(viewModel.notes) { note in
-                    HStack {
-                        Capsule()
-                            .frame(width: 4)
-                            .foregroundStyle(Color(.accent))
-                        Text(note.text)
-                            .lineLimit(1)
-                            .padding(.leading, 5)
+            if viewModel.notes.isEmpty {
+                Spacer()
+                Image(systemName: "note.text")
+                    .resizable()
+                    .scaledToFit()
+                    .foregroundColor(.gray)
+                    .opacity(0.25)
+                    .padding(25)
+            } else {
+                List {
+                    ForEach(viewModel.notes) { note in
+                        HStack {
+                            Capsule()
+                                .frame(width: 4)
+                                .foregroundStyle(Color(.accent))
+                            Text(note.text)
+                                .lineLimit(1)
+                                .padding(.leading, 5)
+                        }
                     }
+                    .onDelete(perform: viewModel.onDelete(_:))
                 }
-                .onDelete(perform: viewModel.onDelete(_:))
             }
             Spacer()
         } //: VStack
