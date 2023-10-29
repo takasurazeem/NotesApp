@@ -13,19 +13,13 @@ struct NoteDetailView: View {
     let count: Int
     let index: Int
     
+    @State private var isCreditsPresented: Bool = false
+    
     // MARK: body
     var body: some View {
         VStack(alignment: .center, spacing: 3) {
             // HEADER
-            HStack {
-                Capsule()
-                    .frame(height: 1)
-                Image(systemName: "note.text")
-                Capsule()
-                    .frame(height: 1)
-            } //: HStack
-            .foregroundStyle(Color.accentColor)
-            
+            HeaderView()
             // CONTENT
             Spacer()
             ScrollView {
@@ -47,9 +41,14 @@ struct NoteDetailView: View {
                 
                 Image(systemName: "info.circle")
                     .imageScale(.large)
+                    .onTapGesture {
+                        isCreditsPresented = true
+                    }
             } //: HStack
             .foregroundStyle(.secondary)
-            
+            .sheet(isPresented: $isCreditsPresented) {
+                CreditsView()
+            }
         } //: VStack
     }
 }
