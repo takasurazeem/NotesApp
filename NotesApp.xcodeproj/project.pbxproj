@@ -126,6 +126,7 @@
 		762C82182ADCAC960079CC09 /* NotesApp Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				F96458E82AEDE7110052B30F /* Persistence */,
 				76ED97ED2ADCC699003A6CEE /* ViewModel */,
 				76ED97EA2ADCC0A8003A6CEE /* Model */,
 				76ED97E92ADCC09E003A6CEE /* View */,
@@ -185,6 +186,13 @@
 				76ED97EE2ADCC6A7003A6CEE /* NotesViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F96458E82AEDE7110052B30F /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Persistence;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
