@@ -60,5 +60,10 @@ extension NotesDashboard {
             let path = FileManager.default.urls(for: .documentDirectory, in: .allDomainsMask)
             return path[0]
         }
+        
+        func onDelete(_ deleteOffsets: IndexSet) {
+            notes.remove(atOffsets: deleteOffsets)
+            save()
+        }
     }
 }
