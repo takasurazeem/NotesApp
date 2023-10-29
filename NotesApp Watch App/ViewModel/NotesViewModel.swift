@@ -17,9 +17,6 @@ extension NotesDashboard {
         init() {
             self.text = ""
             loadNotes()
-#if DEBUG
-            self.notes.append(Note(text: "An examplry note for testing only."))
-#endif
         }
         
         private func save() {
@@ -49,6 +46,9 @@ extension NotesDashboard {
                 } catch {
                     notes = []
                 }
+#if DEBUG
+            self.notes.append(Note(text: "An examplry note for testing only."))
+#endif
             }
         }
         
