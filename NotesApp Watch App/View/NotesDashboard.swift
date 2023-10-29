@@ -10,7 +10,9 @@ import SwiftUI
 struct NotesDashboard: View {
     // MARK: Properties
     @StateObject var viewModel: ViewModel
-    
+
+    @AppStorage("lineCount") var lineCount: Int = 1
+
     // MARK: - Body
     var body: some View {
         NavigationStack {
@@ -33,7 +35,7 @@ struct NotesDashboard: View {
                                         .frame(width: 4)
                                         .foregroundStyle(Color(.accent))
                                     Text(viewModel.notes[index].text)
-                                        .lineLimit(1)
+                                        .lineLimit(lineCount)
                                         .padding(.leading, 5)
                                 }
                             }
