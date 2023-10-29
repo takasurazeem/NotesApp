@@ -13,34 +13,45 @@ struct NotesDashboard: View {
     
     // MARK: - Body
     var body: some View {
-        VStack {
-            AddNoteView(viewModel: viewModel)
-            if viewModel.notes.isEmpty {
-                Spacer()
-                Image(systemName: "note.text")
-                    .resizable()
-                    .scaledToFit()
-                    .foregroundColor(.gray)
-                    .opacity(0.25)
-                    .padding(25)
-            } else {
-                List {
-                    ForEach(viewModel.notes) { note in
-                        HStack {
-                            Capsule()
-                                .frame(width: 4)
-                                .foregroundStyle(Color(.accent))
-                            Text(note.text)
-                                .lineLimit(1)
-                                .padding(.leading, 5)
+        NavigationStack {
+            VStack {
+                AddNoteView(viewModel: viewModel)
+                if viewModel.notes.isEmpty {
+                    Spacer()
+                    Image(systemName: "note.text")
+                        .resizable()
+                        .scaledToFit()
+                        .foregroundColor(.gray)
+                        .opacity(0.25)
+                        .padding(25)
+                } else {
+                    List {
+                        ForEach(viewModel.notes.indices, id: \.self) { index in
+                            NavigationLink(value: viewModel.notes[index]) {
+                                HStack {
+                                    Capsule()
+                                        .frame(width: 4)
+                                        .foregroundStyle(Color(.accent))
+                                    Text(viewModel.notes[index].text)
+                                        .lineLimit(1)
+                                        .padding(.leading, 5)
+                                }
+                            }
+                            .navigationDestination(for: Note.self) { note in
+                                NoteDetailView(
+                                    note: note,
+                                    count: viewModel.notes.count,
+                                    index: index
+                                )
+                            }
                         }
+                        .onDelete(perform: viewModel.onDelete(_:))
                     }
-                    .onDelete(perform: viewModel.onDelete(_:))
                 }
-            }
-            Spacer()
-        } //: VStack
-        .navigationTitle("Notes")
+                Spacer()
+            } //: VStack
+            .navigationTitle("Notes")
+        }
     }
 }
 

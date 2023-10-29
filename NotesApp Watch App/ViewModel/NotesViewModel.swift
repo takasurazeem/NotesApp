@@ -47,7 +47,7 @@ extension NotesDashboard {
                     notes = []
                 }
 #if DEBUG
-            self.notes.append(Note(text: "An examplry note for testing only."))
+            self.notes.append(Note(text: "An examplary note for testing only."))
 #endif
             }
         }

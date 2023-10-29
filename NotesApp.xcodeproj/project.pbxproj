@@ -19,6 +19,7 @@
 		76ED97EC2ADCC0BC003A6CEE /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED97EB2ADCC0BC003A6CEE /* Note.swift */; };
 		76ED97EF2ADCC6A7003A6CEE /* NotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED97EE2ADCC6A7003A6CEE /* NotesViewModel.swift */; };
 		76ED97F12ADCCB8A003A6CEE /* AddNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED97F02ADCCB8A003A6CEE /* AddNoteView.swift */; };
+		F96458EA2AEDEF340052B30F /* NoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96458E92AEDEF340052B30F /* NoteDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		76ED97EB2ADCC0BC003A6CEE /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		76ED97EE2ADCC6A7003A6CEE /* NotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewModel.swift; sourceTree = "<group>"; };
 		76ED97F02ADCCB8A003A6CEE /* AddNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteView.swift; sourceTree = "<group>"; };
+		F96458E92AEDEF340052B30F /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 			children = (
 				762C821B2ADCAC960079CC09 /* NotesDashboard.swift */,
 				76ED97F02ADCCB8A003A6CEE /* AddNoteView.swift */,
+				F96458E92AEDEF340052B30F /* NoteDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				76ED97EF2ADCC6A7003A6CEE /* NotesViewModel.swift in Sources */,
 				762C821C2ADCAC960079CC09 /* NotesDashboard.swift in Sources */,
 				762C821A2ADCAC960079CC09 /* NotesAppApp.swift in Sources */,
+				F96458EA2AEDEF340052B30F /* NoteDetailView.swift in Sources */,
 				76ED97EC2ADCC0BC003A6CEE /* Note.swift in Sources */,
 				76ED97F12ADCCB8A003A6CEE /* AddNoteView.swift in Sources */,
 			);
